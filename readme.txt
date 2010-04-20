@@ -1,13 +1,13 @@
 === 3D Carousel Menu FX ===
 Contributors: flashxml
-Tags: flash, xml, carousel menu
+Tags: free, flash, carousel, 3d, rotate, angle, xml, text, tooltip, gallery, image, images, portfolio, auto, scroll, button, preloader, thumb, radius, speed, center, vertical, horizontal, as3, as2, lightbox, frames
 Requires at least: 2.8.0
 Tested up to: 2.9.2
 Stable tag: trunk
 
 == Description ==
 
-Maybe the most versatile Carousel on the web. Fully XML customizable, without using Flash. And it's free! This plugin helps you easily embed the 3D Carousel Menu from FlashXML.net into your posts and pages. It uses the SWFObject Javascript library that comes with your Wordpress installation for in browser embeds and it generates the HTML embed code for feeds.
+Maybe the most versatile Carousel on the web. Fully XML customizable, without using Flash. And it's free! Embeds the swf in posts using SWFObject
 
 = Main features =
 
