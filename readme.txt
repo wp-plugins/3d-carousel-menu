@@ -5,11 +5,9 @@ Requires at least: 2.8.0
 Tested up to: 2.9.2
 Stable tag: trunk
 
-Maybe the most versatile Carousel on the web. Fully XML customizable, without using Flash. And it's free!
-
 == Description ==
 
-This plugin helps you easily embed the 3D Carousel Menu from FlashXML.net into your posts and pages. It uses the SWFObject Javascript library that comes with your Wordpress installation for in browser embeds and it generates the HTML embed code for feeds.
+Maybe the most versatile Carousel on the web. Fully XML customizable, without using Flash. And it's free! This plugin helps you easily embed the 3D Carousel Menu from FlashXML.net into your posts and pages. It uses the SWFObject Javascript library that comes with your Wordpress installation for in browser embeds and it generates the HTML embed code for feeds.
 
 = Main features =
 
