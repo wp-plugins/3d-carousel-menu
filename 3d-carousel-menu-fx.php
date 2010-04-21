@@ -2,7 +2,7 @@
 /*
 Plugin Name: 3D Carousel Menu FX
 Plugin URI: http://www.flashxml.net/3d-carousel-menu.html
-Description: Maybe the most versatile Carousel on the web. Fully XML customizable, without using Flash. And it's free! This plugin helps you easily embed the 3D Carousel Menu from FlashXML.net into your posts and pages. It uses the SWFObject Javascript library that comes with your Wordpress installation for in browser embeds and it generates the HTML embed code for feeds.
+Description: Maybe the most versatile Carousel on the web. Fully XML customizable. And free! Embed it in your posts, pages, feed and themes!
 Version: 0.1
 Author: FlashXML.net
 Author URI: http://www.flashxml.net/
