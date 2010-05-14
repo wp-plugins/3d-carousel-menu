@@ -3,14 +3,14 @@
 Plugin Name: 3D Carousel Menu FX
 Plugin URI: http://www.flashxml.net/3d-carousel-menu.html
 Description: Maybe the most versatile Carousel on the web. Fully XML customizable. And free! Embed it in your posts, pages, feed and themes!
-Version: 0.1.2
+Version: 0.1.3
 Author: FlashXML.net
 Author URI: http://www.flashxml.net/
 License: GPL2
 */
 
 	$carouselmenufx_params = array(
-		'count'	=> 0, // number of FX 3D Carousel Menu embeds
+		'count'	=> 0, // number of 3D Carousel Menu FX embeds
 	);
 
 	function carouselmenufx_get_embed_code($carouselmenufx_attributes) {
@@ -41,9 +41,9 @@ License: GPL2
 		$swf_embed['swf_path'] = $swf_embed['component_path'].$swf_embed['swf_name'];
 
 		if (!is_feed()) {
-			$embed_code = '<div id="3d-carousel-menu-fx'.$carouselmenufx_params['count'].'">'.$swf_embed['text'].'</div>';
+			$embed_code = '<div id="carouselmenu-fx'.$carouselmenufx_params['count'].'">'.$swf_embed['text'].'</div>';
 			$embed_code .= '<script type="text/javascript">';
-			$embed_code .= "swfobject.embedSWF('{$swf_embed['swf_path']}', '3d-carousel-menu-fx{$carouselmenufx_params['count']}', '{$swf_embed['width']}', '{$swf_embed['height']}', '9.0.0.0', '', { folderPath: '{$swf_embed['component_path']}'".($settings_file_name != 'settings.xml' ? ", settingsXML: '{$settings_file_name}'" : '')." }, { scale: 'noscale', salign: 'tl', wmode: 'transparent', allowScriptAccess: 'sameDomain', allowFullScreen: true }, {});";
+			$embed_code .= "swfobject.embedSWF('{$swf_embed['swf_path']}', 'carouselmenu-fx{$carouselmenufx_params['count']}', '{$swf_embed['width']}', '{$swf_embed['height']}', '9.0.0.0', '', { folderPath: '{$swf_embed['component_path']}'".($settings_file_name != 'settings.xml' ? ", settingsXML: '{$settings_file_name}'" : '')." }, { scale: 'noscale', salign: 'tl', wmode: 'transparent', allowScriptAccess: 'sameDomain', allowFullScreen: true }, {});";
 			$embed_code.= '</script>';
 		} else {
 			$embed_code = '<object width="'.$swf_embed['width'].'" height="'.$swf_embed['height'].'">';
