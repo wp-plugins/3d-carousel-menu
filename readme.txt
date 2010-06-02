@@ -23,13 +23,13 @@ Make sure your Wordpress version is equal or greater than 2.8 and your hosting p
 4. Go to [FlashXML.net](http://www.flashxml.net/ "Free Flash Components") and [customize your 3D Carousel Menu](http://www.flashxml.net/3d-carousel-menu.html "3D Carousel Menu") using the Live Demo. Generate the `settings.xml` text and use it to overwrite `3d-carousel-menu/component/settings.xml`
 5. To use your own images, upload them to the `3d-carousel-menu/component/images` directory and update the `3d-carousel-menu/component/images.xml` file accordingly
 
-= No Flash support text =
-
-To support visitors without Adobe Flash, you can provide alternative textual content. From the post editor, add the text between `[3d-carousel-menu-fx]` and `[/3d-carousel-menu-fx]`. From the PHP files of your theme, add the text as *the first argument* of the `carouselmenufx_echo_embed_code()` function call.
-
 = Additional settings file =
 
-To embed the 3D Carousel Menu more than once, you will need another settings file and (probably) another set of images. Let's assume your new file is called **settings2.xml**. From the post editor, use the following code: `[3d-carousel-menu-fx settings="settings2.xml"][/3d-carousel-menu-fx]`. From the PHP files of your theme, add the file name as *the second argument* of the `carouselmenufx_echo_embed_code()` function call. If you use a separate set of images, don't forget to create a new XML file for that and update the `imagesXML` value in the settings file.
+To embed the 3D Carousel Menu more than once, you will need another settings file and (probably) another set of images. Let's assume your new file is called **settings2.xml**. From the post editor, use the following code: `[3d-carousel-menu-fx settings="settings2.xml"][/3d-carousel-menu-fx]`. From the PHP files of your theme, add the file name as *the first argument* of the `carouselmenufx_echo_embed_code()` function call. If you use a separate set of images, don't forget to create a new XML file for that and update the `imagesXML` value in the settings file.
+
+= No Flash support text =
+
+To support visitors without Adobe Flash, you can provide alternative textual content. From the post editor, add the text between `[3d-carousel-menu-fx]` and `[/3d-carousel-menu-fx]`. From the PHP files of your theme, add the text as *the second argument* of the `carouselmenufx_echo_embed_code()` function call.
 
 == Screenshots ==
 
