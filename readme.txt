@@ -15,13 +15,13 @@ You can integrate it in any website for free without even using Flash. Customiza
 
 == Installation ==
 
-Make sure your Wordpress version is equal or greater than 2.8 and your hosting provider is using PHP5.
+Make sure your Wordpress version is equal or greater than 2.8 and that your hosting provider is using PHP5.
 
-1. Upload the `3d-carousel-menu` directory along with all its files to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+1. Upload the `3d-carousel-menu` folder along with all its subfolders and files to the `/wp-content/plugins/` folder
+2. Activate the plugin from the **Plugins** menu in WordPress Dashboard
 3. In the post editor use the following tag to embed the 3D Carousel Menu: `[3d-carousel-menu-fx][/3d-carousel-menu-fx]`. Or add `<?php carouselmenufx_echo_embed_code(); ?>` in your templates
 4. Go to [FlashXML.net](http://www.flashxml.net/ "Free Flash Components") and [customize your 3D Carousel Menu](http://www.flashxml.net/3d-carousel-menu.html "3D Carousel Menu") using the Live Demo. Generate the `settings.xml` text and use it to overwrite `3d-carousel-menu/component/settings.xml`
-5. To use your own images, upload them to the `3d-carousel-menu/component/images` directory and update the `3d-carousel-menu/component/images.xml` file accordingly
+5. To use your own images, upload them to the `3d-carousel-menu/component/images` folder and update the `3d-carousel-menu/component/images.xml` file accordingly
 
 = Additional settings file =
 
