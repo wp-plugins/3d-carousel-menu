@@ -3,7 +3,7 @@
 Plugin Name: 3D Carousel Menu FX
 Plugin URI: http://www.flashxml.net/3d-carousel-menu.html
 Description: Maybe the most versatile Carousel on the web. Fully XML customizable. And free! Embed it in your posts, pages, feed and themes!
-Version: 0.1.8
+Version: 0.1.9
 Author: FlashXML.net
 Author URI: http://www.flashxml.net/
 License: GPL2
