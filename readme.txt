@@ -23,8 +23,8 @@ Make sure your Wordpress version is greater than 2.8 and your hosting provider i
 4. Activate the plugin from the **Plugins** tab in **WordPress Dashboard**
 5. Go to **3D Carousel Menu FX** from the **Settings** tab and update the path in case you used a different one
 6. In the post editor use the following tag to embed the 3D Carousel Menu FX: `[3d-carousel-menu-fx][/3d-carousel-menu-fx]`. You could also add `<?php carouselmenufx_echo_embed_code(); ?>` in the PHP file of your theme
-7. Go to [FlashXML.net](http://www.flashxml.net/ "Free Flash Components") and [customize your 3D Carousel Menu FX](http://www.flashxml.net/3d-carousel-menu.html "3D Carousel Menu FX") using the Live Demo. Generate the `settings.xml` text and use it to overwrite `flashxml/carouselmenufx/settings.xml`
-8. To use your own images, upload them to the `flashxml/carouselmenufx/images` folder and update the `flashxml/carouselmenufx/images.xml` file accordingly
+7. Go to [FlashXML.net](http://www.flashxml.net/ "Free Flash Components") and [customize your 3D Carousel Menu FX](http://www.flashxml.net/3d-carousel-menu.html "3D Carousel Menu FX") using the Live Demo. Generate the `settings.xml` text and use it to overwrite `flashxml/3d-carousel-menu-fx/settings.xml`
+8. To use your own images, upload them to the `flashxml/3d-carousel-menu-fx/images` folder and update the `flashxml/3d-carousel-menu-fx/images.xml` file accordingly
 
 = Additional settings file =
 
