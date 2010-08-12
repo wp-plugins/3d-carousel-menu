@@ -17,7 +17,7 @@ You can integrate it in any website for free without even using Flash. Customiza
 
 Make sure your Wordpress version is greater than 2.8 and your hosting provider is using PHP5.
 
-1. There are two files to download: [WordPress Plugin](http://downloads.wordpress.org/plugin/3d-carousel-menu-fx.zip "3D Carousel Menu FX Plugin") (that you have to install and activate) & [Free archive](http://www.flashxml.net/free/download/3d-carousel-menu.zip "3D Carousel Menu FX")
+1. There are two files to download: [WordPress Plugin](http://downloads.wordpress.org/plugin/3d-carousel-menu.zip "3D Carousel Menu FX Plugin") (that you have to install and activate) & [Free archive](http://www.flashxml.net/free/download/3d-carousel-menu.zip "3D Carousel Menu FX")
 2. Create a new folder inside your **wp-content** folder called **flashxml**, inside this folder create a new one called **3d-carousel-menu-fx** and copy the content of the **free archive** there
 3. If you copied the **free archive** to a location different than the one above, go to **3D Carousel Menu FX** from the **Settings** tab in your **WordPress Dashboard** and update the path accordingly
 4. Add `[3d-carousel-menu-fx][/3d-carousel-menu-fx]` where you want the Flash to show up in your post/page
