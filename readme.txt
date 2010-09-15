@@ -5,11 +5,9 @@ Requires at least: 2.8.0
 Tested up to: 3.0.1
 Stable tag: trunk
 
-== Description ==
-
 Maybe the most versatile Carousel on the web. Fully XML customizable, without using Flash. And it's free!
 
-= Main features =
+== Description ==
 
 You can integrate it in any website for free without even using Flash. Customizable width and height of the overall carousel, up to 1680 x 1050 pixels. You can have the carousel rotate in any angle. You can have a centered image or not. Customizable width and height for the images. All possible rotations behaviors and speeds are available. Optional image frames and reflection. Extensive roll over effects. The tooltip is HTML formatted.
 
