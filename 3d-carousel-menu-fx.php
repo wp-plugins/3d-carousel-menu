@@ -2,7 +2,7 @@
 /*
 Plugin Name: 3D Carousel Menu FX
 Plugin URI: http://www.flashxml.net/3d-carousel-menu.html
-Description: Maybe the most versatile Carousel on the web. Fully XML customizable, without using Flash. And it's free!
+Description: Maybe the most versatile Carousel on the web. Fully XML customizable without any Flash knowledge. And it's free!
 Version: 0.2.7
 Author: FlashXML.net
 Author URI: http://www.flashxml.net/
@@ -36,20 +36,16 @@ License: GPL2
 				$height = (int)$data->General_Properties->carouselHeight->attributes()->value;
 			}
 		} elseif ((int)$carouselmenufx_attributes[4] > 0 && (int)$carouselmenufx_attributes[6] > 0) {
-			$width = $carouselmenufx_attributes[4];
-			$height = $carouselmenufx_attributes[6];
+			$width = (int)$carouselmenufx_attributes[4];
+			$height = (int)$carouselmenufx_attributes[6];
 		} else {
 			return '<!-- invalid 3D Carousel Menu FX width and / or height -->';
-		}
-
-		if ($width == 0 || $height == 0) {
-			return '';
 		}
 
 		$swf_embed = array(
 			'width' => $width,
 			'height' => $height,
-			'text' => trim($carouselmenufx_attributes[7]),
+			'text' => isset($carouselmenufx_attributes[7]) ? trim($carouselmenufx_attributes[7]) : '',
 			'component_path' => WP_CONTENT_URL . "/{$plugin_dir}/",
 			'swf_name' => 'carousel.swf',
 		);
